@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cardapio.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app-container">
+        <nav class="navbar navbar-light bg-danger">
+            <a class="navbar-brand text-white" href="/">
+              <img src="img/logo-ifood-white.svg" alt="iFood" height="30" />
+            </a>
+            <button class="navbar-toggler" type="button">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+
+        <div class="container mt-3">
+            <div>
+              <p class=" fs-2 fw-bold">Produtos Detalhados</p>
+              <input type="text" class="form-control" placeholder="Buscar produto" />
+              <div class="d-flex justify-content-between my-3">
+                <button class="btn btn-light">
+                  <i class="fas fa-filter"></i> Valor Líquido (maior - menor)
+                </button>
+                <button class="btn btn-light">Hambúrgueres</button>
+              </div>
+
+
+              <!--Main component wrapper-->
+              <div class="bg-danger p-2 flex-column align-items-center justify-content-center gap-5 h-auto">
+
+
+                <div class="card">
+                  <div class="flex-row">
+                    <img src="/img/hamburguer-de-siri.png" alt="" width="100px" height="100px">
+
+                    <div>
+                      <h3>Hamburguer de Siri</h3>
+                      <p>Alguma descrição sobre esse hamburguer que eu estou com muita preguiça de escrever e o texto tem que ficar grande para eu testar com que fica</p>
+                    </div>
+                  </div>
+
+                  <div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="img/hamburguer-de-siri.png" class="img-fluid custom-img" alt="Hamburguer de Siri" />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Hamburguer de Siri</h5>
+                          <p class="card-text">Preço: R$100.000.000,00</p>
+                          <p class="card-text text-success">Lucro: R$999.970,00</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+            </div>
+        </div>
+        <div class="fixed-bottom mb-3 text-center">
+          <button class="btn btn-danger btn-lg">Cadastrar novo Produto</button>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
