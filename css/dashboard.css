@@ -1,0 +1,83 @@
+body {
+  background-color: #ebebeb;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  padding: 10px;
+}
+
+.navbar img {
+  height: 30px;
+}
+
+.navbar-toggler {
+  border: none;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  padding: 1rem;
+}
+
+main .layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+main h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+main .cardinfos {
+  width: 100%;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 600px;
+}
+
+main .cardinfos.graph {
+  max-width: 1000px;
+}
+
+.graph-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.graph-info ul {
+  text-align: start;
+}
+
+main .cardinfos .graph-img {
+  background-image: url("./img/graph.png");
+}
+
+.separator {
+  height: 1px;
+  width: 100%;
+  background-color: gray;
+  margin-bottom: 15px;
+}
+
+main .infos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
