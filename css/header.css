@@ -1,41 +1,23 @@
-<<<<<<< HEAD
 .navbar-brand img {
-    width: 120px;
+  width: 120px;
 }
 
-.bg-red{
-    
-    background-color: #ea1d2c;
+.bg-red {
+  background-color: #ea1d2c;
 }
 
-.no-flex-grow{
-    flex-grow: 0 !important;
+.no-flex-grow {
+  flex-grow: 0 !important;
 }
 
-.navbar-toggler-white{
-    border-color: #fff !important;
+.navbar-toggler-white {
+  border-color: #fff !important;
 }
 
-.navbar-toggler-icon-white{
-    background-image: url('../img/burger-menu.svg') !important;
-=======
-.navbar-brand img {
-    width: 120px;
+.navbar-toggler-icon-white {
+  background-image: url("../img/burger-menu.svg") !important;
 }
 
-.bg-red{
-    background-color: #ea1d2c;
-}
-
-.no-flex-grow{
-    flex-grow: 0 !important;
-}
-
-.navbar-toggler-white{
-    border-color: #fff !important;
-}
-
-.navbar-toggler-icon-white{
-    background-image: url('../img/burger-menu.svg') !important;
->>>>>>> 1eea49ed2ed988a25c84d3fd29c4ea7579b2c1c0
+ul li a:hover {
+  text-decoration: underline;
 }

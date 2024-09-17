@@ -1,31 +1,55 @@
+body {
+  background-color: #ebebeb;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  background-color: #fe001a;
+  padding: 10px;
+}
+
+.navbar img {
+  height: 30px;
+}
+
+.navbar-toggler {
+  border: none;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
 .app-container {
-    background-color: #f8f9fa;
-    min-height: 100vh;
+  background-color: #f8f9fa;
+  min-height: 100vh;
 }
-  
+
 .navbar-brand img {
-    width: 100px;
+  width: 100px;
 }
-  
+
 .card-img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
-  
+
 .card-body {
-    padding: 0.5rem;
+  padding: 0.5rem;
 }
-  
+
 .card-title {
-    margin-bottom: 0.25rem;
+  margin-bottom: 0.25rem;
 }
-  
+
 .fixed-bottom {
-    background-color: white;
-    padding: 1rem;
+  background-color: white;
+  padding: 1rem;
 }
 
 .custom-img {
-    max-width: 100px;
-    height: auto;
+  max-width: 100px;
+  height: auto;
 }
