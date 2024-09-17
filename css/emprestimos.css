@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EBEBEB;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  background-color: #FE001A;
+  padding: 10px;
+}
+
+.navbar img {
+  height: 30px;
+}
+
+.navbar-toggler {
+  border: none;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.card,
+.footer-total {
+  margin-bottom: 10px;
+  border: none;
+}
+
+.card-header {
+  font-weight: 400;
+  font-size: 1.4rem;
+  border: none;
+}
+
+.first {
+  font-size: 2.5rem !important;
+  color: #B33939;
+  font-weight: 700;
+  margin: 0 !important;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.card-body h5 {
+  font-size: 2.5rem !important;
+  margin:  0;
+  font-weight: 700;
+}
+
+#pem {
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0;
+}
+
+
+.card-body .text-danger {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.btn {
+  margin: 0 5px;
+  background-color: #D9D9D9;
+  color: black;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  background-color: #a19b9b;
+}
+
+button {
+  border-radius: 25px !important;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-red {
+  background-color: #FE001A;
+  color: #fff;
+}
+
+.btn-red:hover {
+  background-color: #c82333;
+}
+
+.footer-total {
+  background-color: #218C74;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 1rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footer-total:hover {
+  background-color: #197a65;
+}
