@@ -1,0 +1,55 @@
+*{margin:0; padding: 0; box-sizing: border-box;}
+.container{display: flex; margin: auto;}
+body{background-color: #c5c5c7;}
+table  {
+    display: grid;
+    
+    border-radius: 0.5rem;
+    background-color: whitesmoke;
+
+}
+table tr:nth-child(2n){color: #c5c5c7;}
+
+tr, td {
+    padding: 8px;
+}
+
+
+table #nome summary{
+    list-style: none;
+    font-size: 0.5rem;
+    font-weight: lighter;
+    color: grey;
+}
+table #placa summary{
+    list-style: none;
+    font-size: 0.5rem;
+    font-weight: lighter;
+    color: #c5c5c7;
+}
+table #nome{
+    
+    text-align: center;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+table #placa{
+    justify-content: end;
+    text-align: end;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+table tr td img{
+    height: 15px;
+    width: 15px;
+}
+
+
+button {
+    background-color: #ea1d2c;
+    border-radius: 0.4rem;
+    color: white;
+}
+#form {
+    display: none;
+}

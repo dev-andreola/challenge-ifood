@@ -1,0 +1,61 @@
+
+body{
+    background: #c5c5c7;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#img1{
+    display: flex;
+    margin: 0 auto;
+    height: 100px;
+    transform: scale(0.8);
+
+}
+section{
+    position:absolute;
+top:80%;
+left:50%;
+transform: translate(-50%,-50%);
+    display: block;
+    height: 72rem;
+    width: 50rem;
+    margin: 0 auto; 
+    
+}
+fieldset{
+    border:solid 0.2rem, gray;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
+
+form label{
+    color: #e8e9eb;
+}
+
+
+#body input{
+    display: block;
+    margin: 0 auto;
+    transform: scale(0.8);
+}
+
+input {border-radius: 0.5rem;
+    border-color: #ea1d2c;
+    border-style: groove;
+
+}
+#dMotos,#eParceiro,#infoP{
+    display:grid;
+    
+}
+
+div button{display: block;
+    margin: 0 auto;
+    background-color: #ea1d2c;
+    border-radius: 0.4rem;
+    color: white;}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/cadastroE.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-red px-5 d-flex justify-content-between">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo-ifood-white.svg" alt="Página inicial">
+            </a>
+            <button class="navbar-toggler navbar-toggler-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                 aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Abrir / fechar menu">
+                <span class="navbar-toggler-icon navbar-toggler-icon-white">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse no-flex-grow" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Página 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Página 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Página 4</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+    <form action="" id="formulario">
+        <fieldset><legend><h1>Cadastro Do Parceiro</h1></legend>
+        
+        <div id="body">
+        <input type="file" id="photo" name="photo"  width="220" height="170" required>
+        </div>
+        
+        <p id="infoP"><label for="nome">Nome: </label> <input type="text" name="nome" placeholder="Primeiro Nome">
+            <label for="sobrenome">Sobrenome: </label> <input type="text" name="sobrenome" placeholder="Sobrenome">
+            <label for="dataNasc">Data De Nascimento: </label> <input type="date" name="dataNasc">
+            <label for="email">Email: </label> <input type="text" name="email" placeholder="E-mail de Contato">
+            <label for="telefone">Celular: </label> <input type="text" name="celular" placeholder="Numero de Celular">
+            <label for="CPF">CPF: </label> <input type="text" name="CPF" placeholder="CPF">
+            <p><label for="">Sexo:</label>
+            <input type="radio" name="genero"id="sexo" value="feminino" required>
+            <label for="feminino">Feminino</label>
+            <input type="radio"name="genero" value="masculino" required>
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" value="outro" required>
+            <label for="outro">Outro</label> </p>
+            <label for="registroGeral">RG: </label> <input type="text" name="RG" placeholder="Registro Geral"></p>
+        <p id="eParceiro"><label for="endereço">Endereço:</label> <input type="text" name="" id="endereço" placeholder="Digite o Nome da Rua">
+            <label for="casa">Numero:</label> <input type="text" name="" id="numero" placeholder="Numero da casa">
+            <label for="Bairro">Bairro:</label> <input type="text" name="" id="bairro" placeholder="Bairro">
+            <label for="cidade">Cidade:</label> <input type="text" name="" id="cidade" placeholder="Cidade">
+            </p>
+        <P id="dMotos">
+            <label for="CNH">CNH: </label> <input type="text" name="CNH" placeholder="CNH">
+            <Label for="modelo">Modelo: </Label> <input type="text" name="modelo" placeholder="Modelo do Veiculo" />
+            <label for="marca">Marca: </label> <input type="text" name="marca" placeholder="Marca do Veiculo">
+            <label for="cor">Cor: </label> <input type="text" name="cor" placeholder="Cor do Veiculo">
+            <label for="placa">Placa de veiculo: </label> <input type="text" name="placa" placeholder="Placa do Veiculo">
+            <label for="Renavam">Renavam:</label> <input type="text" name="Renavam" placeholder="Numero do Renavam">
+        </P>
+        <div><button type="button" onclick="cadastroParceiro()">Cadastrar</button></div>
+    </fieldset>
+    </form>
+</section>
+    
+
+</body>
+</html>
+
+<script src="js/cadastroE.js" defer></script>
+<script type="module" src="./js/intermediario.js"></script>
