@@ -12,10 +12,21 @@
 
 .navbar-toggler-white {
   border-color: #fff !important;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
-.navbar-toggler-icon-white {
-  background-image: url("../img/burger-menu.svg") !important;
+.navbar-toggler-icon-entregadores {
+  background-image: url("../img/helmet.svg") !important;
+}
+
+.navbar-toggler-icon-emprestimos {
+  background-image: url("../img/money.svg") !important;
+}
+
+.navbar-toggler-icon-cardapio {
+  background-image: url("../img/menu.svg") !important;
 }
 
 ul li a:hover {

@@ -36,7 +36,7 @@ section {
   display: block;
   height: auto;
   width: 75%;
-  margin:0 auto;
+  margin: 0 auto;
 }
 fieldset {
   border: solid 0.2rem, gray;
@@ -52,14 +52,14 @@ form label {
 #body input {
   display: block;
   margin: 0 auto;
-  width:100%;
+  width: 100%;
 }
 
 input {
   border-radius: 0.5rem;
   border-color: #ea1d2c;
   border-style: groove;
-  width:100%;
+  width: 100%;
 }
 #dMotos,
 #eParceiro,
