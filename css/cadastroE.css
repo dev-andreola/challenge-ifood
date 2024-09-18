@@ -34,9 +34,9 @@ h1 {
 }
 section {
   display: block;
-  height: 72rem;
-  width: 50rem;
-  margin: 15px auto 0;
+  height: auto;
+  width: 75%;
+  margin:0 auto;
 }
 fieldset {
   border: solid 0.2rem, gray;
@@ -52,13 +52,14 @@ form label {
 #body input {
   display: block;
   margin: 0 auto;
-  transform: scale(0.8);
+  width:100%;
 }
 
 input {
   border-radius: 0.5rem;
   border-color: #ea1d2c;
   border-style: groove;
+  width:100%;
 }
 #dMotos,
 #eParceiro,

@@ -36,30 +36,33 @@ body {
 
 table {
   display: grid;
-
-  border-radius: 0.5rem;
+  width: 100%;
+  border: solid black;
+  border-radius: 1rem;
   background-color: whitesmoke;
 }
 table tr:nth-child(2n) {
-  color: #c5c5c7;
+ background-color: #c5c5c7;
 }
 
-tr,
-td {
-  padding: 8px;
+tr,td {
+  padding: 0.3rem;
+}
+a{
+  text-decoration: none;
 }
 
 table #nome summary {
   list-style: none;
   font-size: 0.5rem;
   font-weight: lighter;
-  color: grey;
+  color: black
 }
 table #placa summary {
   list-style: none;
   font-size: 0.5rem;
   font-weight: lighter;
-  color: #c5c5c7;
+  color: black
 }
 table #nome {
   text-align: center;
@@ -79,9 +82,14 @@ table tr td img {
 
 button {
   background-color: #ea1d2c;
+  width: 75%;
   border-radius: 0.4rem;
   color: white;
+  display:block;
+  margin: 0 auto;
 }
 #form {
   display: none;
+  border-radius: 1rem;
+  
 }

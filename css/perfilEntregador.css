@@ -1,8 +1,10 @@
 *{margin:0; padding: 0; box-sizing: border-box;}
 .container{display: grid; justify-content: center;
 align-items: center;
+
 }
 #body input{
+    
     display: block;
     margin: 0 auto;
     transform: scale(0.8);
@@ -24,20 +26,24 @@ input {border-radius: 0.5rem;
     background-color: #ea1d2c;
     border-radius: 0.4rem;
     color: white;}
-    body{background-color: #c5c5c7;}
+    body{background-color: #c5c5c7;
+        width: auto}
 table  {
-
+    display:flex ;
     align-items: center;
-    width: 500px;
+    width: 100%;
     border-radius: 0.5rem;
     background-color: white;
 
 }
+#relat table  tr:nth-child(2n) {
+    color: #ea1d2c;}
 
 
 tr, td {
     padding: 8px;
     font-style: initial;
+    width: 100%;
 }
     
 summary{
@@ -60,7 +66,8 @@ summary{
 
 }
 #historico{
-border: 0.2rem solid black;
+    border: 0.2rem solid black;
     border-radius: 1rem;
+    
 
 }
